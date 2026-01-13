@@ -503,10 +503,24 @@ const facilityDetails = [
         features: ["Modern laboratory equipment", "Safety facilities", "Interactive learning tools", "Well-ventilated space"]
     },
     {
-        title: "Industrial Arts",
-        description: "Our Industrial Arts facility offers comprehensive technical-vocational training in various specializations. Students gain practical skills and hands-on experience in different trades.",
-        subFacilities: ["Automotive Shop", "SMAW Shop", "EIM Shop", "EPAS Shop"],
-        features: ["Professional-grade equipment", "Safety-certified workshops", "Expert instructors", "Industry-standard tools"]
+        title: "Automotive Shop",
+        description: "Our Automotive facility provides comprehensive training in automotive servicing and repair. Students learn essential skills in engine diagnostics, brake systems, transmission, and electrical systems. The facility is equipped with professional-grade tools and equipment to prepare students for careers in the automotive industry.",
+        features: ["Professional automotive tools", "Engine diagnostic equipment", "Vehicle lift systems", "Safety-certified workshop", "Expert instructors"]
+    },
+    {
+        title: "SMAW Shop",
+        description: "The Shielded Metal Arc Welding (SMAW) facility offers hands-on training in welding techniques and metal fabrication. Students develop practical skills in various welding processes, safety protocols, and metalworking. This facility prepares students for careers in construction, manufacturing, and industrial welding.",
+        features: ["Welding machines and equipment", "Safety gear and protective equipment", "Metal cutting tools", "Ventilation systems", "Certified welding instructors"]
+    },
+    {
+        title: "EIM Shop",
+        description: "The Electrical Installation and Maintenance (EIM) strand offers hands-on skills in installing, maintaining, and repairing electrical systems, covering basic principles, residential and commercial wiring, and industrial applications, leading to TESDA National Certificates (NC II) for immediate employment as a technician or electrician, or for further studies in engineering.",
+        features: ["Electrical installation", "Electrical Maintenance", "Electrical troubleshooting", "Safety electrical wiring", "Certified Electrical instructors"]
+    },
+    {
+        title: "EPAS Shop",
+        description: "The Electrical Power and Automation Systems (EPAS) facility provides training in electrical installation, maintenance, and automation systems. Students learn about electrical circuits, power distribution, control systems, and modern automation technologies. This facility prepares students for careers in electrical engineering and industrial automation.",
+        features: ["Electrical testing equipment", "Control panels and automation systems", "Safety tools and equipment", "Modern electrical components", "Expert electrical instructors"]
     },
     {
         title: "Home Economics Laboratory",
@@ -519,9 +533,14 @@ const facilityDetails = [
         features: ["Spacious dining area", "Nutritious meal options", "Clean and hygienic", "Comfortable seating"]
     },
     {
-        title: "Grade 11/12 Faculty Room",
-        description: "A dedicated space for Senior High School faculty members to collaborate, plan lessons, and provide academic support to students. This room facilitates effective communication and coordination among teachers.",
-        features: ["Workstations for teachers", "Meeting area", "Resource materials", "Comfortable workspace"]
+        title: "Grade 11 Faculty Room",
+        description: "A dedicated workspace for Grade 11 faculty members to collaborate, plan lessons, and provide academic support to students. This room facilitates effective communication and coordination among Grade 11 teachers, ensuring quality education delivery.",
+        features: ["Workstations for Grade 11 teachers", "Meeting and collaboration area", "Resource materials and references", "Comfortable workspace", "Student consultation area"]
+    },
+    {
+        title: "Grade 12 Faculty Room",
+        description: "A dedicated workspace for Grade 12 faculty members to collaborate, plan lessons, and provide academic support to graduating students. This room facilitates effective communication and coordination among Grade 12 teachers, ensuring students are well-prepared for their future endeavors.",
+        features: ["Workstations for Grade 12 teachers", "Meeting and collaboration area", "Resource materials and references", "Comfortable workspace", "Student consultation area"]
     },
     {
         title: "Registrar Office",
